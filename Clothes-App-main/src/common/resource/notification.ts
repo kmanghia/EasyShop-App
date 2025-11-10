@@ -1,0 +1,18 @@
+export const NotificationType = Object.freeze({
+    ORDER_NEW: 'ORDER_NEW',
+    ORDER_CANCELED: 'ORDER_CANCELED',
+    STORE_REGISTRATION_REQUEST: 'STORE_REGISTRATION_REQUEST',
+    STORE_REGISTRATION_REJECTED: 'STORE_REGISTRATION_REJECTED',
+    PRODUCT_LOW_STOCK: 'PRODUCT_LOW_STOCK'
+});
+
+export const NotificationReferenceType = Object.freeze({
+    ORDER: 'ORDER',
+    STORE_REGISTRATION: 'STORE_REGISTRATION'
+});
+
+export const NotificationActionType = Object.freeze({
+    VIEW_ORDER: 'VIEW_ORDER',
+    VIEW_REGISTRATION: 'VIEW_REGISTRATION',
+    NONE: 'NONE'
+});
